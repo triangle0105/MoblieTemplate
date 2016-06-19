@@ -24,7 +24,41 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("主页", "Index", "Home")</li>
                     <li>@Html.ActionLink("关于", "About", "Home")</li>
-                    <li>@Html.ActionLink("联系方式", "Contact", "Home")</li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">模板exp <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a target="_blank" href="/Mobile/SalesOne">专卖1</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">模板示例 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a target="_blank" href="/Template/Demo/agency/index.html">agency</a></li>
+                            <li><a target="_blank" href="/Template/Demo/bold/index.html">bold</a></li>
+                            <li><a target="_blank" href="/Template/Demo/clean/index.html">clean</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a target="_blank" href="/Template/Demo/closest/index.html">closest</a></li>
+                            <li><a target="_blank" href="/Template/Demo/crew/index.html">crew</a></li>
+                            <li><a target="_blank" href="/Template/Demo/epic/index.html">epic</a></li>
+                            <li><a target="_blank" href="/Template/Demo/foodee/index.html">foodee</a></li>
+                            <li><a target="_blank" href="/Template/Demo/fotografy/index.html">fotografy</a></li>
+                            <li><a target="_blank" href="/Template/Demo/guide/index.html">guide</a></li>
+                            <li><a target="_blank" href="/Template/Demo/hold/index.html">hold</a></li>
+                            <li><a target="_blank" href="/Template/Demo/hydrogen/index.html">hydrogen</a></li>
+                            <li><a target="_blank" href="/Template/Demo/KAdmin/index.html">KAdmin</a></li>
+                            <li><a target="_blank" href="/Template/Demo/magazine/index.html">magazine</a></li>
+                            <li><a target="_blank" href="/Template/Demo/neos/index.html">neos</a></li>
+                            <li><a target="_blank" href="/Template/Demo/nitro/index.html">nitro</a></li>
+                            <li><a target="_blank" href="/Template/Demo/outline/index.html">outline</a></li>
+                            <li><a target="_blank" href="/Template/Demo/personal/index.html">personal</a></li>
+                            <li><a target="_blank" href="/Template/Demo/ranger/index.html">ranger</a></li>
+                            <li><a target="_blank" href="/Template/Demo/render/index.html">render</a></li>
+                            <li><a target="_blank" href="/Template/Demo/simple/index.html">simple</a></li>
+                            <li><a target="_blank" href="/Template/Demo/union/index.html">union</a></li>
+                            <li><a target="_blank" href="/Template/Demo/valet/index.html">valet</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>

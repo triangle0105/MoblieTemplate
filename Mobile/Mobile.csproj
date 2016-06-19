@@ -173,6 +173,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MobileController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -188,8 +189,17 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Exp_Sales\1bag.jpg" />
+    <Content Include="Images\Exp_Sales\2bag.jpg" />
+    <Content Include="Images\Exp_Sales\3bag.jpg" />
+    <Content Include="Images\Exp_Sales\4bag.jpg" />
+    <Content Include="Images\Exp_Sales\5bag.jpg" />
+    <Content Include="Images\Exp_Sales\6bag.jpg" />
+    <Content Include="Images\Exp_Sales\7bag.jpg" />
+    <Content Include="Images\Exp_Sales\8bag.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\MobileTemplate.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -5300,6 +5310,7 @@
     <Content Include="Template\package_zip\simple.zip" />
     <Content Include="Template\package_zip\union.zip" />
     <Content Include="Template\package_zip\valet.zip" />
+    <Content Include="Views\Mobile\SalesOne.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
